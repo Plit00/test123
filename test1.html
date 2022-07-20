@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html lang="ko" class="perfect-scrollbar-off">
+<html lang="en" class="perfect-scrollbar-off">
 
 
 <head>
@@ -17,7 +18,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="/static/img/apple-icon.png">
   <link rel="icon" type="image/png" href="/static/img/favicon.png ">
   <title>
-    CVE Live List
+    pwnable.xyz
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
@@ -36,22 +37,22 @@
     <div class="sidebar">
       <div class="sidebar-wrapper">
         <div class="logo">
-          <a href="/" class="simple-text logo-normal">
-            CVE LIST-UP
+          <a href="/index.html" class="simple-text logo-normal">
+            CVE LIVE LIST
           </a>
         </div>
         <ul class="nav">
           
-          <li class="">
+          <li class="active">
             <a href="/">
               <i class="tim-icons icon-single-copy-04"></i>
               <p>News</p>
             </a>
           </li>
-          <li class="active">
-            <a href="/AD/">
+          <li class="">
+            <a href="/challenges/">
               <i class="tim-icons icon-atom"></i>
-              <p>#AD</p>
+              <p>Challenges</p>
             </a>
           </li>
           <li class="">
@@ -78,11 +79,66 @@
         </ul>
       </div>
     </div>
+    <div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-toggle d-inline">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            
+            <a class="navbar-brand" href="/user/11024/">plitoo</a>
+            
+          </div>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navigation"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navigation">
+            
+            <ul class="navbar-nav ml-auto">
+              <li class="dropdown nav-item">
+                <a href="/logout/" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                  <div class="photo">
+                    <img src="https://www.gravatar.com/avatar/5a44bfdd22b217a57be8f92aa375a61f" alt="Profile Photo">
+                  </div>
+                  <b class="caret d-none d-lg-block d-xl-block"></b>
+                  <p class="d-lg-none">
+                    Log out
+                  </p>
+                </a>
+                <ul class="dropdown-menu dropdown-navbar">
+                  <li class="nav-link">
+                    <a href="/user/11024/" class="nav-item dropdown-item">Profile</a>
+                  </li>
+                  <li class="dropdown-divider"></li>
+                  <li class="nav-link">
+                    <a href="/logout/" class="nav-item dropdown-item">Log out</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="separator d-lg-none"></li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      
+
 <div class="content">
   <div class="row">
     <div class="col-md-8">
       <div class="card">
-        <div class="card-header">CVE Live List Service</div>
+        <div class="card-header">Welcome</div>
         <div class="card-body">Here you will find pwnables for beginners. Most of the challenges were created
           for an internal event at our ctf team <a href="https://twitter.com/OpenToAllCTF" target="blank">OpenToAll</a>. Eventually I grew fond of the idea
           of hosting them publicly, so this website was born. Some challenges will have multiple variations
@@ -102,3 +158,263 @@
         </div>
       </div>
     </div>
+    <div class="col-md-4">
+      <div class="card card-tasks">
+        <div class="card-header ">
+          <h6 class="title d-inline">News</h6>
+        </div>
+        <div class="card-body ">
+          <div class="table-full-width">
+            <table class="table">
+              <tbody>
+                
+                <tr>
+                  <td>
+                    <div class="d-flex">
+                      <div class="">
+                      <p class="title">Challenges Up</p>
+                    </div>
+                    <div class="ml-auto">
+                      <p class="text-muted">Nov. 13, 2021, 5:09 a.m.</p>
+                    </div>
+                    </div>
+                    <p class="text-muted">Good news, service has been restored! All challenges are back up and running. Enjoy and have fun.</p>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td>
+                    <div class="d-flex">
+                      <div class="">
+                      <p class="title">Challenges Down</p>
+                    </div>
+                    <div class="ml-auto">
+                      <p class="text-muted">Nov. 9, 2021, 7:51 p.m.</p>
+                    </div>
+                    </div>
+                    <p class="text-muted">Due to the host platform (DigitalOcean) upgrade, all challenges are currently offline. Unfortunately, there&#39;s no ETA for the fix, but I&#39;m in constant communication with their support team. I will send an update here and in discord when the issue has been resolved. Thank you</p>
+                  </td>
+                </tr>
+                
+                <tr>
+                  <td>
+                    <div class="d-flex">
+                      <div class="">
+                      <p class="title">Launch</p>
+                    </div>
+                    <div class="ml-auto">
+                      <p class="text-muted">Jan. 1, 2019, 8:05 p.m.</p>
+                    </div>
+                    </div>
+                    <p class="text-muted">Merry Christmas and Happy New Year!</p>
+                  </td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+      
+
+      <footer class="footer">
+        <div class="container-fluid">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="mailto:pwnablexyz@gmail.com" class="nav-link">
+                Contact Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/donate/" class="nav-link">
+                Donate
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://discord.gg/zZ5JytX" target="_blank" class="nav-link">
+                DISCORD
+              </a>
+            </li>
+          </ul>
+          <div class="copyright">
+            © 2019 pwnable.xyz
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!--   Core JS Files   -->
+  <script src="/static/js/core/jquery.min.js"></script>
+  <script src="/static/js/core/popper.min.js"></script>
+  <script src="/static/js/core/bootstrap.min.js"></script>
+  <script src="/static/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <!-- Chart JS -->
+  <script src="/static/js/plugins/chartjs.min.js"></script>
+  <!--  Notifications Plugin    -->
+  <script src="/static/js/plugins/bootstrap-notify.js"></script>
+  <script src="/static/js/black-dashboard.min.js?v=1.0.0"></script>
+
+  <script>
+    $(document).ready(function () {
+      $().ready(function () {
+        $sidebar = $('.sidebar');
+        $navbar = $('.navbar');
+        $main_panel = $('.main-panel');
+
+        $full_page = $('.full-page');
+
+        $sidebar_responsive = $('body > .navbar-collapse');
+        sidebar_mini_active = true;
+        white_color = false;
+
+        window_width = $(window).width();
+
+        fixed_plugin_open = $('.sidebar .sidebar-wrapper .nav li.active a p').html();
+
+
+
+        $('.fixed-plugin a').click(function (event) {
+          if ($(this).hasClass('switch-trigger')) {
+            if (event.stopPropagation) {
+              event.stopPropagation();
+            } else if (window.event) {
+              window.event.cancelBubble = true;
+            }
+          }
+        });
+
+        $('.fixed-plugin .background-color span').click(function () {
+          $(this).siblings().removeClass('active');
+          $(this).addClass('active');
+
+          var new_color = $(this).data('color');
+
+          if ($sidebar.length != 0) {
+            $sidebar.attr('data', new_color);
+          }
+
+          if ($main_panel.length != 0) {
+            $main_panel.attr('data', new_color);
+          }
+
+          if ($full_page.length != 0) {
+            $full_page.attr('filter-color', new_color);
+          }
+
+          if ($sidebar_responsive.length != 0) {
+            $sidebar_responsive.attr('data', new_color);
+          }
+        });
+
+        $('.switch-sidebar-mini input').on("switchChange.bootstrapSwitch", function () {
+          var $btn = $(this);
+
+          if (sidebar_mini_active == true) {
+            $('body').removeClass('sidebar-mini');
+            sidebar_mini_active = false;
+            blackDashboard.showSidebarMessage('Sidebar mini deactivated...');
+          } else {
+            $('body').addClass('sidebar-mini');
+            sidebar_mini_active = true;
+            blackDashboard.showSidebarMessage('Sidebar mini activated...');
+          }
+
+          var simulateWindowResize = setInterval(function () {
+            window.dispatchEvent(new Event('resize'));
+          }, 180);
+
+          setTimeout(function () {
+            clearInterval(simulateWindowResize);
+          }, 1000);
+        });
+
+        $('.switch-change-color input').on("switchChange.bootstrapSwitch", function () {
+          var $btn = $(this);
+
+          if (white_color == true) {
+
+            $('body').addClass('change-background');
+            setTimeout(function () {
+              $('body').removeClass('change-background');
+              $('body').removeClass('white-content');
+            }, 900);
+            white_color = false;
+          } else {
+
+            $('body').addClass('change-background');
+            setTimeout(function () {
+              $('body').removeClass('change-background');
+              $('body').addClass('white-content');
+            }, 900);
+
+            white_color = true;
+          }
+
+
+        });
+
+        $('.light-badge').click(function () {
+          $('body').addClass('white-content');
+        });
+
+        $('.dark-badge').click(function () {
+          $('body').removeClass('white-content');
+        });
+      });
+    });
+    $(".clickable-row").click(function (e) {
+      var href = $(this).data("href");
+      e.stopPropagation();
+      if (cmd) {
+        window.open(href, '_blank');
+      } else {
+        window.location = href;
+      }
+    });
+    var cmd = false;
+    $(document).keydown(function (e) {
+      var key = e.which || e.keyCode;
+      if (key == 91 || key == 93 || key == 17 || key == 224 || key == 2) cmd = true;
+    });
+    $(document).keyup(function (e) {
+      cmd = false;
+    });
+    solve = {
+      Fail: function () {
+        $.notify({
+          icon: "tim-icons icon-bell-55",
+          message: "Incorrect flag submission."
+        }, {
+            type: 'danger',
+            timer: 8000,
+            placement: {
+              from: 'top',
+              align: 'right'
+            }
+          });
+      },
+      Success: function () {
+        $.notify({
+          icon: "tim-icons icon-bell-55",
+          message: "Correct flag submission."
+        }, {
+            type: 'success',
+            timer: 8000,
+            placement: {
+              from: 'top',
+              align: 'right'
+            }
+          });
+      },
+    }
+    
+  </script>
+</body>
+
+</html>
